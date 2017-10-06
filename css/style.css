@@ -1,8 +1,16 @@
+
+
+body{
+    font-size:16px;
+    min-width: 1024px;
+
+}
 .input-group{
 	margin-bottom: 15px;
 }
 .martop45 {
-    margin-top: 45px;
+    margin:0 auto;
+    width: 1024px;
 }
 .adminLogin {
     background: #f5f5f5;
@@ -19,20 +27,193 @@
 	text-decoration: none;
 }
 
-.profile {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 25%;
-    border-radius: 5px;
-    float: right;
-    margin-top: 18px;
-}
-
-.profile:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
 
 img {
     border-radius: 5px 5px 0 0;
 }
+.viewEmployee{
+    border: 4px solid #ccc;   
+    border-radius: 15px;
+    padding: 54px;
+}
+#search {
+    width: 53%;
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 3px solid #ccc; /* Add a grey border */
+    border-radius: 7px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#search:focus{
+    width: 100%;
+}
+#search{
+    margin-bottom: 10px;
+}
 
+#empTable {
+    border-collapse: collapse; /* Collapse borders */
+    border: 3px solid #ccc; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+}
+
+#empTable th, #empTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+
+}
+
+#empTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd; 
+}
+
+#empTable tr.header, #empTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+}
+
+.addEmployee {
+    float:right;
+}
+.addEmployee input[type="submit"]{
+    float:right;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    padding: 12px 20px 12px 40px; /* Add some padding */
+}
+
+.icon-input-btn input[type="submit"]{
+     padding-left: 2em;
+}
+.icon-input-btn .glyphicon{
+        display: inline-block;
+        position: absolute;
+        left: 0.65em;
+        top: 30%;
+        padding:0px;
+
+}
+.icon-input-btn .glyphicon-search{
+
+           left: 1.65em;
+      
+}
+.glyphicon-user{
+    color: darkcyan;
+}
+#user{
+        color: darkcyan;
+}
+.user{
+   float:right;
+    margin-top: 12px; 
+}
+
+.panelbody{
+    background-color: #dbdada;
+    padding-top: 2%;
+    border-radius: 13px 13px 0px 0px;
+    text-align: center;
+     box-shadow: 6px 10px 5px #bdbdbd;;
+}
+.panelbody1{
+    background-color: #dbdada;
+    border-radius: 0px 0px 13px 13px;
+    text-align: center;
+     box-shadow: 6px 10px 5px #bdbdbd;;
+}
+.panel-success>.empbox {
+    color: #ffffff;
+    background-color: #92B558;
+    border-color: #d6e9c6;
+    border: 3px solid #92B558;
+}
+.panel-success>.dtrbox {
+    color: #ffffff;
+    background-color: #ff6f69;
+     border: 3px solid #ff6f69;
+}
+}
+.panel-success>.budgetbox {
+    color: #ffffff;
+    background-color: #4F84C4;
+}
+
+.panel-success>.circlebox {
+    color: #ffffff;
+    background-color: #d96459;
+}
+
+.panel-success>.assbox {
+    color: #ffffff;
+    background-color: #588c7e;
+}
+
+.panel-success>.billbox {
+    color: #ffffff;
+    background-color: #87bdd8;
+}
+.panel-success>.pyrbox {
+    color: #ffffff;
+    background-color: #e06377;
+}
+.panel-success>.summarybox {
+    color: #ffffff;
+    background-color: #4b96ac;
+}
+.panel{
+  box-shadow: 10px 10px 5px #bdbdbd;  
+}
+
+.panel:hover{
+
+}
+
+
+.panel-success>.empbox {
+    color: #ffffff;
+    background-color: #92B558;
+    border-color: #d6e9c6;
+    border: 3px solid #92B558;
+}
+.panel-success>.dtrbox {
+    color: #ffffff;
+    background-color: #ff6f69;
+     border: 3px solid #ff6f69;
+}
+}
+.panel-success>.budgetbox {
+    color: #ffffff;
+    background-color: #dff0d8;
+}
+
+.panel-success>.circlebox {
+    color: #ffffff;
+    background-color: #d96459;
+}
+
+.panel-success>.assbox {
+    color: #ffffff;
+    background-color: #588c7e;
+}
+
+.panel-success>.billbox {
+    color: #ffffff;
+    background-color: #87bdd8;
+}
+.panel-success>.pyrbox {
+    color: #ffffff;
+    background-color: #e06377;
+}
+.panel-success>.summarybox {
+    color: #ffffff;
+    background-color: #4b96ac;
+}
+#add_employee{
+     margin-top: 15px;
+}
+
+#add_employee input{
+    margin-bottom: 10px;
+}
